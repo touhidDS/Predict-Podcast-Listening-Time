@@ -73,21 +73,6 @@ Install via:
 pip install numpy pandas matplotlib seaborn scikit-learn lightgbm
 ```
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd your-repo-name
-   ```
-3. Open the notebook:
-   ```bash
-   jupyter notebook notebook7dfc695889.ipynb
-   ```
-4. Run all cells to train the model and generate `submission.csv`.
-
 ## Results
 - The model predicts listening time with a focus on RMSE minimization.
 - Sample predictions (first 10 from submission):
@@ -100,5 +85,4 @@ pip install numpy pandas matplotlib seaborn scikit-learn lightgbm
 - For local runs, update file paths accordingly.
 - Potential improvements: Hyperparameter tuning, ensemble models, additional feature engineering.
 
-## License
-MIT License. Feel free to use and modify.
+
